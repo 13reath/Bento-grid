@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="px-4 py-16 font-sans bg-[rgb(245,245,245)]">
+    <main
+      class="mx-auto max-w-[1300px] max-h-[1000px] px-4 grid grid-cols-1 gap-8 xl:grid-cols-4 xl:grid-rows-10"
+    >
+      <section
+        class="bg-purple-500 text-white p-6 xl:col-span-2 xl:col-start-2 xl:row-span-4 xl:row-start-1 justify-center items-center text-center"
+      >
+        <h1 class="text-5xl p-4 xl:text-6xl font-semibold">
+          Social Media <span class="text-yellow-500">10x</span>
+          <span class="italic">Faster </span>with AI
+        </h1>
+        <img
+          class="w-48 h-auto my-4"
+          src="assets/images/illustration-five-stars.webp"
+          alt="stars"
+        />
+        <p class="text-xl text-purple-100">Over 4,000 5-star reviews</p>
+      </section>
+
+      <section
+        class="bg-white p-6 justify-start items-center xl:col-span-1 xl:col-start-2 xl:row-span-3 xl:row-start-5 xl:justify-around"
+      >
+        <img
+          class="h-auto"
+          src="assets/images/illustration-multiple-platforms.webp"
+          alt="company"
+        />
+        <h3 class="font-semibold text-[1.5rem] xl:text-2xl">
+          Manage multiple accounts and platforms.
+        </h3>
+      </section>
+
+      <section
+        class="bg-yellow-500 relative px-6 xl:col-span-1 xl:col-start-3 xl:row-span-3 xl:row-start-5 overflow-hidden"
+      >
+        <h2 class="py-4 max-w-96 xl:max-w-48 font-semibold">
+          Maintain a consistent posting schedule.
+        </h2>
+        <div class="xl:relative xl:w-full xl:h-full xl:min-h-[200px]">
+          <!-- Контейнер для изображения -->
+          <img
+            class="max-w-48 xl:absolute xl:w-auto xl:h-full xl:min-w-full rounded-xl xl:object-cover"
+            src="assets/images/illustration-consistent-schedule.webp"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section
+        class="bg-purple-100 p-6 xl:pr-0 xl:col-span-1 xl:col-start-4 xl:row-span-7 xl:row-start-1 flex flex-col items-center overflow-hidden"
+      >
+        <!-- Заголовок -->
+        <h2 class="py-4 w-full max-w-64 text-center xl:text-left">
+          Schedule to social media.
+        </h2>
+
+        <!-- Контейнер для изображения -->
+        <div class="w-full xl:flex-1 xl:relative xl:overflow-hidden mt-4">
+          <img
+            class="w-full xl:absolute xl:left-0 xl:h-full xl:object-cover xl:min-w-full xl:w-auto xl:max-w-none"
+            src="assets/images/illustration-schedule-posts.webp"
+            alt="schedule"
+          />
+        </div>
+
+        <!-- Текст -->
+        <p
+          class="py-4 text-[1.25rem] font-medium leading-none w-full max-w-64 text-center mt-4 xl:text-left"
+        >
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </section>
+
+      <section
+        class="bg-purple-500 text-center items-center text-white p-6 xl:col-span-2 xl:col-start-3 xl:row-span-3 xl:row-start-8 xl:!flex-row"
+      >
+        <img
+          class="h-auto w-72 mx-auto pb-6 xl:py-6"
+          src="assets/images/illustration-grow-followers.webp"
+          alt=""
+        />
+        <h2 class="max-w-2xs mx-auto leading-none">
+          Grow followers with non-stop content.
+        </h2>
+      </section>
+
+      <section
+        class="bg-white p-6 justify-between font-medium xl:col-span-1 xl:col-start-2 xl:row-span-3 xl:row-start-8"
+      >
+        <h3 class="text-6xl font-semibold">>56%</h3>
+        <p class="py-4 text-xl">faster audience growth</p>
+        <img
+          class="w-48"
+          src="assets/images/illustration-audience-growth.webp"
+          alt=""
+        />
+      </section>
+
+      <section
+        class="p-6 bg-yellow-100 leading-none xl:col-span-1 xl:col-start-1 xl:row-span-5 xl:row-start-1 justify-center"
+      >
+        <h1
+          class="mx-auto xl:tracking-tighter text-[3rem] xl:max-w-64 font-semibold"
+        >
+          Create and schedule content
+          <span class="text-purple-500 italic">quicker.</span>
+        </h1>
+        <img
+          class="w-48 xl:w-auto py-6"
+          src="assets/images/illustration-create-post.webp"
+          alt=""
+        />
+      </section>
+
+      <section
+        class="bg-yellow-500 p-6 leading-none xl:col-span-1 xl:col-start-1 xl:row-span-5 xl:row-start-6 xl:justify-between"
+      >
+        <h1 class="tracking-tighter text-[2.5rem] xl:max-w-48 font-semibold">
+          Write your content using AI.
+        </h1>
+        <img
+          class="w-64 h-auto pt-6"
+          src="assets/images/illustration-ai-content.webp"
+          alt=""
+        />
+      </section>
+    </main>
+  </body>
+</html>

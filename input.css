@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 7%);
+  --color-purple-500: hsl(256, 67%, 59%);
+  --color-purple-100: hsl(254, 88%, 90%);
+  --color-yellow-500: hsl(39, 100%, 71%);
+  --color-yellow-100: hsl(31, 66%, 93%);
+}
+
+body {
+  @apply leading-none;
+}
+
+section {
+  @apply rounded-xl max-w-[25rem]  mx-auto w-full xl:max-w-[50rem] flex flex-col;
+  height: auto;
+}
+
+h2 {
+  @apply text-[2rem] font-medium;
+}
